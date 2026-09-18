@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0D1321;
+  color: #F5F3EE;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+input, select {
+  background: #1D2A45;
+  border: 1px solid #26314A;
+  color: #F5F3EE;
+}
+input:focus, select:focus {
+  outline: none;
+  border-color: #3DDC97;
+}
